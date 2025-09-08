@@ -7,7 +7,7 @@ VERSION = "v1.0.0"
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello CI/CD", "version": VERSION}
+    return {"message": "Hello CI/CD"}
 
 @app.get("/version")
 def get_version():
